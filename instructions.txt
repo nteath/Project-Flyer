@@ -1,0 +1,18 @@
+composer install
+composer update
+
+-- download external libs
+    vendor/bin/bowerphp install
+
+-- Compile assets
+    vendor/bin/mini_asset build --config assets.ini
+
+-- Watch files for changes
+    vendor/bin/robo build
+
+-- INCLUDE
+    <link rel="stylesheet" href="{{  asset('css/libs.css') }}">
+    <link rel="stylesheet" href="{{  asset('css/app.css') }}">
+
+    <script src="{{  asset('js/libs.js') }}"></script>
+    <script src="{{  asset('js/app.js') }}"></script>

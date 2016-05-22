@@ -1,0 +1,15 @@
+{
+    "name": "nteath",
+    "authors": [
+        "Beelab <info@bee-lab.net>",
+        "Thanasis Nterelis <nteath@gmail.com>"
+    ],
+    "private": true,
+    "dependencies": {
+        "jquery": "~2.2.0",
+        "bootstrap": "~3.3.6",
+        "fontawesome": "~4.5.0",
+        "sweetalert": "*",
+        "dropzone": "*"
+    }
+}
